@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #e3e3fd;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#navbar{
+    background-color: #777;
+    line-height: 3rem;
+}
+.navbar-brand{
+    color: #e3e3fd;
+    font-size: 2rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    transition: 0.2s ease all;
+}
+.navbar-brand:hover, .navbar-lists a:hover{
+    color: #5566ff;
+    transition: 0.2s ease all;
+}
+ul{
+    margin-bottom: 0;
+}
+.navbar-collapse{
+    flex-grow: 0;
+}
+.navbar-lists{
+    text-align: center;
+}
+.navbar-lists a{
+    font-size: 1.2rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #e3e3fd;
+    transition: 0.2s ease all;
+    text-decoration: none;
+}
+.navbar-lists li{
+    list-style: none;
+}
+
+.main-section h2{
+    font-size: 2.4rem;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.main-content{
+    background-color: #777;
+    padding: 10px 22px;
+    margin-bottom: 30px;
+}
+
+.main-content .h2{
+    font-family: 'Gentium Book Plus', serif;
+    font-weight: 700;
+}
+.main-content p:nth-child(2){
+    font-weight: 600;
+}
+
+@media (max-width: 320px){
+    .navbar-toggler{
+        font-size: 0.8rem;
+    }
+    .navbar-brand{
+        font-size: 1.5rem;
+    }
+    .main-section h2 {
+        font-size: 1.8rem;
+    }
+    .main-content .h2 {
+        font-size: 1.4rem;
+    }
+    .main-content p:nth-child(2) {
+        font-size: 0.9rem;
+    }
+}
